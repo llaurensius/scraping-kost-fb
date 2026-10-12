@@ -1,0 +1,19 @@
+# Python & Virtualenv
+backend/.venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*.pyc
+backend/kost.db
+backend/kost.db-journal
+
+# Node & Frontend Build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / Temporary
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
