@@ -26,7 +26,7 @@ export const ScraperPanel: React.FC<ScraperPanelProps> = ({
   onStartScraping,
   onStopScraping,
 }) => {
-  const [keyword, setKeyword] = useState('kost putra jogja');
+  const [keyword, setKeyword] = useState('');
   const [citySlug, setCitySlug] = useState('');
   const [limit, setLimit] = useState(50);
   const [isSubmitting, setIsSubmitting] = useState(false);
